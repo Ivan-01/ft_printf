@@ -6,18 +6,18 @@
 /*   By: ititkov <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/14 11:20:04 by ititkov           #+#    #+#             */
-/*   Updated: 2019/03/14 11:20:23 by ititkov          ###   ########.fr       */
+/*   Updated: 2019/03/14 15:38:33 by ititkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int     ft_wstrlen(wchar_t *str)
+int			ft_wstrlen(wchar_t *str)
 {
-    int     len;
+	int		len;
 
-    len = 0;
-    while (str[len])
-        len++;
-    return (len);
+	len = 0;
+	while (str[len])
+		len++;
+	return (len);
 }

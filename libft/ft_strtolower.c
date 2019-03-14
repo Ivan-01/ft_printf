@@ -6,27 +6,27 @@
 /*   By: ititkov <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/14 11:14:50 by ititkov           #+#    #+#             */
-/*   Updated: 2019/03/14 11:15:13 by ititkov          ###   ########.fr       */
+/*   Updated: 2019/03/14 15:29:10 by ititkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char    *ft_strtolower(char *str)
+char		*ft_strtolower(char *str)
 {
-    char    *new;
-    int     i;
+	char	*new;
+	int		i;
 
-    new = (char *)malloc(sizeof(char) * ft_strlen(str) + 1);
-    i = 0;
-    while (str[i])
-    {
-        if (str[i] >= 'A' && str[i] <= 'Z')
-            new[i] = str[i] + 32;
-        else
-            new[i] = str[i];
-        ++i;
-    }
-    new[i] = '\0';
-    return (new);
+	new = (char *)malloc(sizeof(char) * ft_strlen(str) + 1);
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] >= 'A' && str[i] <= 'Z')
+			new[i] = str[i] + 32;
+		else
+			new[i] = str[i];
+		++i;
+	}
+	new[i] = '\0';
+	return (new);
 }

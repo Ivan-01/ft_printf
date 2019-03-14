@@ -6,7 +6,7 @@
 /*   By: ititkov <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/19 20:09:45 by ititkov           #+#    #+#             */
-/*   Updated: 2019/03/14 11:20:57 by ititkov          ###   ########.fr       */
+/*   Updated: 2019/03/14 15:39:08 by ititkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ char				*ft_bchar(int n, char c);
 char				*ft_update(char *str, char *update);
 void				ft_putwchar(wchar_t c);
 void				ft_putwchar_fd(wchar_t c, int fd);
-char                *ft_itoa_base(intmax_t value, int base);
+char				*ft_itoa_base(intmax_t value, int base);
 char				*ft_strccrt(const char *str, char c);
 char				*ft_strtoupper(char *str);
 char				*ft_strtolower(char *str);
