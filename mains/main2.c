@@ -6,7 +6,7 @@
 /*   By: ititkov <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/01 13:32:36 by ititkov           #+#    #+#             */
-/*   Updated: 2019/03/13 19:55:54 by ititkov          ###   ########.fr       */
+/*   Updated: 2019/03/14 21:47:47 by ititkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,24 +55,6 @@ int				main(void)
 	// failures
 
 	printf("FILECHECKER FAILED TESTS\n");
-	ft_printf("f - failure #0045 = %#-08x\n", 42);
-//	printf("p - failure #0045 = %#-08x\n", 42);
-
-	ft_printf("f - failure #0089 = %-05o\n", 2500);
-//	printf("p - failure #0089 = %-05o\n", 2500);
-
-	ft_printf("f - failure #0134 = %-05d\n", 42);
-//	printf("p - failure #0134 = %-05d\n", 42);
-
-	ft_printf("f - failure #0136 = %-05d\n", -42);
-//	printf("p - failure #0136 = %-05d\n", -42);
-
-//	ft_printf("f - failure # 150 %lld\n", -9223372036854775808);
-//	printf("p - failure # 150 %lld\n", -9223372036854775808);
-
-//	ft_printf("f - failure # 152 %jd\n", -9223372036854775808);
-//	printf("p - failure # 150 %lld\n", -9223372036854775808);
-
 	ft_printf("f - failure #0195 = %hU\n", 42);
 //	printf("p - failure #0195 = %hU\n", 42);
 
@@ -98,7 +80,5 @@ int				main(void)
 	printf("BONUS PART FLAG b\n");
 	ft_printf("%b\n", 128);
 	
-	while (1);
-
 	return (0);
 }
